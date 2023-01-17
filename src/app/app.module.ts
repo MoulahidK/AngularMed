@@ -13,6 +13,7 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewFaceSnapComponent } from './new-face-snap/new-face-snap.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
