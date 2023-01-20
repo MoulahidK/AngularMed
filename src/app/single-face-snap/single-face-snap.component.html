@@ -8,7 +8,7 @@
     <p>{{ faceSnap.description }}</p>
     <p *ngIf="faceSnap.location">{{faceSnap.location}}</p>
     <p>
-        <button (click)="onSnap()">{{ buttonText }}!</button>
+        <button (click)="onSnap(faceSnap.id)">{{ buttonText }}!</button>
         <span [ngStyle]="{ color: 'rgb(0, ' + faceSnap.snaps + ', 0)' }">🤌 {{ faceSnap.snaps }}</span>
     </p>
 </div>
