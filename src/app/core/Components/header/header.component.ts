@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit{
   ngOnInit(){
   }
     onAddNewFaceSnap(): void{
-      this.router.navigateByUrl('/create');
+      this.router.navigateByUrl('facesnaps/create');
     }
 
   
