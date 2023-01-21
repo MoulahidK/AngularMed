@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import { FaceSnapsModule } from './face-snaps/face-snaps.module';
 import { LandingPageComponent } from './landing-page/components/landing-page.component';
+import { LandingPageModule } from './landing-page/landing-page.module';
 
 
 
@@ -23,7 +24,7 @@ import { LandingPageComponent } from './landing-page/components/landing-page.com
     AppRoutingModule,
     CoreModule,
     FaceSnapsModule,
-    LandingPageComponent
+    LandingPageModule
   ],
   
   bootstrap: [AppComponent]
